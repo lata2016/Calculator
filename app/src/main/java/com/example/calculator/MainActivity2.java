@@ -96,7 +96,7 @@ public class MainActivity2 extends AppCompatActivity {
                 result = Double.parseDouble(oldNumber) * Double.parseDouble(newNumber);
                 break;
             case "/":
-                //rasti kur behet pjestim me zero
+                //divide by 0 case
                 double divisor = Double.parseDouble(newNumber);
                 if (divisor == 0) {
                     divisionByZero = true;
